@@ -1,0 +1,9 @@
+{
+  "name": "MaxPlayerModifier",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/valdream",
+  "description": "Configurable max player limit.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.601"
+  ]
+}

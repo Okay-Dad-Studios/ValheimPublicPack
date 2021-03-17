@@ -1,0 +1,9 @@
+{
+    "name": "Clock",
+    "version_number": "0.8.4",
+    "website_url": "https://www.nexusmods.com/valheim/mods/68",
+    "description": "Adds a simple configurable clock widget to the screen showing the in-game time of day or a fuzzy representation like Late Afternoon.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.800"
+    ]
+}

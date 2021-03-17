@@ -1,0 +1,9 @@
+{
+    "name": "StatsLogger",
+    "version_number": "1.0.1",
+    "website_url": "https://givenameplz.de",
+    "description": "Stats Logging for your Characters!",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.800"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "FireIsHot",
+  "description": "Fire Is Hot tweaks the behaviour of fire from torches and the player.",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.600"
+  ]
+}

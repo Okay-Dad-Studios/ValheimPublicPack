@@ -1,0 +1,9 @@
+{
+	"name": "Server_Messages",
+	"version_number": "1.0.1",
+	"website_url": "https://github.com/Zinal001/ValheimMods/tree/main/ServerMessages",
+	"description": "A mod that allows a server to periodically send messages to online players.",
+	"dependencies": [
+		"denikson-BepInExPack_Valheim-5.4.602"
+	]
+}

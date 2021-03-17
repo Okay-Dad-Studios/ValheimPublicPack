@@ -1,0 +1,9 @@
+﻿{
+  "name": "LadyBeardTonic",
+  "version_number": "1.0.1",
+  "website_url": "N/A",
+  "description": "Disables the selection block for beards on the female character",
+  "dependencies": [
+  "denikson-BepInExPack_Valheim-5.4.600"
+  ]
+}
