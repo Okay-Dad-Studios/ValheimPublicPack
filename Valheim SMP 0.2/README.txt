@@ -15,7 +15,7 @@ INSTALL INSTRUCTIONS:
 
 3. Once in the mod manager, under profile selection, click import.
 
-4. Select the file under the r2modman profiles fold that you got from extracting the modpack zip.
+4. Select the file under the r2modman profiles folder that you got from extracting the modpack zip.
 
 5. Now click on launch modded to open valheim and create the directories needed next. 
 
