@@ -4,12 +4,15 @@
 This mod updates the game UI with few subtle edits.  
 You are able to edit and select what updates you want to use. 
 
-Feel free to check my other mod as well [First-Person Mod](https://valheim.thunderstore.io/package/Masa/FirstPerson/)
+[![Version](https://img.shields.io/endpoint?color=success&label=Version&style=flat-square&url=https%3A%2F%2Fvalheim-modtracker.vercel.app%2Fnexusmods%2F189%2Fversion)](https://github.com/matias-kovero/BetterUI)
+
+Feel free to check my other mod as well [First-Person Mod](https://valheim.thunderstore.io/package/Masa/FirstPerson/)  
+
+[![](https://i.nyah.moe/Rb5tv.png)](https://zap-hosting.com/BetterUI)
 ## Table of Contents
 1. [Installation](#Installation-(manual))
 2. [Preview](#Preview)
-3. [Default Config](#Config)
-4. [Changelog](#Changelog)
+3. [Changelog](#Changelog)  
 
 ## Installation (manual)
 
@@ -20,101 +23,31 @@ If you are installing this manually, do the following _(You will need Bepinex in
 3. Run the game, it will generate automatically an configuration file into `<GameDirectory>\Bepinex\config`
 
 ## Preview
+![HoverInfo](https://i.nyah.moe/Rbb2l.png)
 ![Tooltips](https://i.nyah.moe/Rwitl.png)
 ![Charlevels](https://i.nyah.moe/Rwk8I.png)
 ![EnemyHud](https://i.nyah.moe/RwNht.png)
 
-## Config
-```
-[HUD]
 
-## Toggle the use of custom enemy hud
-# Setting type: Boolean
-# Default value: true
-useCustomEnemyHud = true
-
-## Select Text size on enemyHud
-# Setting type: Int32
-# Default value: 14
-enemyHudTextSize = 14
-
-## How far you will see enemy HP Bar. This is an multiplier, 1 = game default. 2 = 2x default
-# Setting type: Single
-# Default value: 1
-MaxShowDistance = 5
-
-[Item]
-
-## Show colored durability bars
-# Setting type: Boolean
-# Default value: true
-ShowDurabilityColor = true
-
-## Show item quality as stars
-# Setting type: Boolean
-# Default value: true
-showItemStars = true
-
-## Show customized tooltips.
-# Setting type: Boolean
-# Default value: true
-showCustomTooltips = true
-
-## Scale item icon by this factor. Ex. 0.75 makes them 75% of original size
-# Setting type: Single
-# Default value: 0.75
-ScaleSize = 0.7
-
-[Settings]
-
-## Change colorMode. Options: 0=Normal, 1=Protanopia 
-# Setting type: Int32
-# Default value: 0
-colorMode = 0
-
-[UI]
-
-## Show Character XP Bar.
-# Setting type: Boolean
-# Default value: true
-showCharacterXP = true
-
-## Show when you gain xp from actions.
-# Setting type: Boolean
-# Default value: true
-ShowXPNotifications = true
-
-## Toggle the use of custom skills UI
-# Setting type: Boolean
-# Default value: true
-useCustomSkillUI = true
-
-## Select text size on skills UI
-# Setting type: Int32
-# Default value: 14
-skillUITextSize = 24
-
-## Toggle the visibility of custom info on character selection
-# Setting type: Boolean
-# Default value: true
-showCustomCharInfo = true
-
-## Show all item stats when mouse is hovered over armour amount.
-# Setting type: Boolean
-# Default value: true
-showCombinedItemStats = true
-
-## Select how time left is shown. 0 = Default, 1 = Percentage, 2 = min:sec
-# Setting type: Int32
-# Default value: 2
-timeLeftStyleFermenter = 2
-
-## Select how time left is shown. 0 = Game Default, 1 = Percentage, 2 = min:sec
-# Setting type: Int32
-# Default value: 2
-timeLeftStylePlant = 2
-```
 ## Changelog
+#### 1.6.4
+- Fixed fermenter hover text after game update 0.148.6
+- Skill notifications are ingnored on lvl 100 skills
+- Chest hovertext now has option to show avaible free slots.
+#### 1.6.3
+- Container hover text follows original format
+- XP Notification customization (text size, extended information)
+#### 1.6.2
+- Fixed issues with enemyHud draw distance defaulting to smaller than game default
+- Skill percentage text is now scaled with skillUITextSize
+#### 1.6.1
+- Fixed fishing rod causing skills to crash / losing session progress.
+- Removed decimals from chest percentage.
+#### 1.6.0
+- Added custom map pin size (for the 4k gang)
+- More hovertext information (Cooking station, chest)
+- Fixed issue with XP notification caused crashing
+- More modification options on cofig.
 #### 1.5.1
 - Fixed Player XP Bar scaling issues on > 16:9 resolutions. Please notify if you still have issues.
 - Added custom hover text on plant & fermenter.

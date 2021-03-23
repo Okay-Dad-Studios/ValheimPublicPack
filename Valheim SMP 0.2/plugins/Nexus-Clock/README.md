@@ -71,4 +71,37 @@ To install manually, place the dll file in the BepInEx/plugins folder. You will 
 
 Code is at https://github.com/aedenthorn/ValheimMods.
 
-﻿﻿If you want to complain or ask for help or help me test my mods, you can visit my Discord server﻿.
+Changelogs
+Version 1.1.1
+Fixed showing when no hud
+Version 1.1.0
+Added text alignment
+Fixed drag size
+Version 1.0.0
+Hide when hud hidden
+Version 0.9.0
+Made draggable
+Version 0.8.4
+Fix for update check
+Version 0.8.3
+Fixed toggling key
+Version 0.8.1
+Fix for hotkey when console open
+Version 0.8.0
+Added ability to show on press when show on change is active
+Version 0.7.0
+Added option to only show time on change then fade out
+Version 0.6.1
+Fixed position to be float
+Version 0.6.0
+Added option to use percent values for clock position
+Version 0.5.0
+Fixed default fuzzy string, added optional modifier toggle key
+Version 0.4.1
+Added console command to reload config from file
+Version 0.3.4
+Fixed custom clock font
+Version 0.3.3
+Fix for new BepInEx
+Version 0.2.0
+Added ability to use other fonts

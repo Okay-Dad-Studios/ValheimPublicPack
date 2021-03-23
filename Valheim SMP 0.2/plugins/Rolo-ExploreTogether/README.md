@@ -17,12 +17,16 @@ Client side only, no server install required.
 
 ##Pins
 - Type /sharepins to send your pins to other players *
+- Share individual pins by middle clicking and holding a configurablle key *
 - Pins created by other players will be added to your map *
 - Share your death marker with other players *
 - Tag your death marker with your name and time of death
 - Track boats and carts on the map
 
 #ChangeLog
+### 1.3.0 - (18/03/2021)
+- [Contributed by Barril] Share individual pins by pressing middle mouse while hovering over them (and optionally holding an additional key)
+
 ### 1.2.2 - (11/03/2021)
 - Fixed log spamming "0 0" etc. when cart pins were enabled
 - Ships and carts way below sea level will not be shown as pins

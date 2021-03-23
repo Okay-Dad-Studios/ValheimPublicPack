@@ -1,9 +1,9 @@
 {
     "name": "ValheimBrawler",
-    "version_number": "0.0.4",
+    "version_number": "0.0.6",
     "website_url": "https://github.com/ceko/valheim-brawler",
-    "description": "Valheim brawler adds six tiers of unarmed weapons to the game from wood to black metal.",
+    "description": "Valheim brawler adds six tiers of unarmed weapons to the game from wood to black metal. This mod is unsupported.",
     "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.701" 
+        "denikson-BepInExPack_Valheim-5.4.900" 
     ]
 }

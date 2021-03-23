@@ -9,7 +9,7 @@ View your current Characters Stats In-Game and watch them increase to questionab
 
 ## Features
 * Character based Stats logging
-* Display In-Game (Message Log)
+* Display Stats In-Game (Inventory Menu->Compendium (Raven Symbol)->Character Stats)
 * View Retail Stats already logged by Valheim in the background (Kills, Deaths, Builds, Crafts)
  * Info: The Kills stat is not used by the game yet, but the Mod will start increasing it. (Opt-Out)
 * Local Milestone Announcements (Configurable)
@@ -49,6 +49,18 @@ In-Game with handy Console commands:
 If you feel like dropping a message about something feel free to head to the [Website](https://givenameplz.de) to find contact information, or even better on [Discord](https://discord.com/invite/W8j6gvR).
 
 ## Changelog
+### 1.1.0
+* Added a custom window which replaces the view in the Compendium to fix having too many stats breaking the display (might see some more work down the road)
+* Added categories to the custom window which includes all the "handcrafted" stat selections
+* Added a "Weapons" category to the categories in the custom window
+* Added a search function to the custom window
+* Added a "raw" view to the custom window which will show you every stat currently logged
+* Removed the entries in the Compendium but one, which now acts as button to open the StatsLogger window
+* Added logging for LastDeath (time)
+* Added logging for LastDamageTaken (time)
+* Changed display for "time" based values to a 00:00:00 format
+* Added the mod icon as sprite for the stat announce effect, it's not an empty white square anymore now
+
 ### 1.0.1
 * Fixed some Stats not correctly logging in Multiplayer. *(Special thanks to [Drebonda](https://www.twitch.tv/drebonda) & [Daniel](https://www.twitch.tv/dannyboy1060) for acting as test subjects.)*
 * Hiding unnecessary debug outputs.

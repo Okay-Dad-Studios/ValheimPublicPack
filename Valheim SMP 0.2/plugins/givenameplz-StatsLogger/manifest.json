@@ -1,6 +1,6 @@
 {
     "name": "StatsLogger",
-    "version_number": "1.0.1",
+    "version_number": "1.1.0",
     "website_url": "https://givenameplz.de",
     "description": "Stats Logging for your Characters!",
     "dependencies": [

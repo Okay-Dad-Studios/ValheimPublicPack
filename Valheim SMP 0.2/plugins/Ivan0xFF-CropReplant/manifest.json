@@ -1,0 +1,9 @@
+{
+    "name": "CropReplant",
+    "version_number": "2.1.1",
+    "website_url": "https://www.nexusmods.com/valheim/mods/99",
+    "description": " A tiny QoL mod. When harvesting your crops, if you have the cultivator and the required seeds, the crop will be automatically replanted.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.900"
+    ]
+}

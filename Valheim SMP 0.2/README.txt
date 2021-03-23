@@ -92,13 +92,82 @@ Toggle FPS - 'F6'
 HideHud:
 Hide Hud: 'F1'
 
-FightClub:
+    VALHEIM PLUS
+-----------------------
+BUILDING MODE:
+* Building mode hotkey is F3, exit is F4
+* CopyItemRotation: Keypad7
+* CopyItemRotation:Keypad8
+* increaseScrollSpeed=KeypadPlus
+* decreaseScrollSpeed=KeypadMinus
+
+FREEPLACEMENTROTATION:
+* rotateY=RightAlt
+* rotateX=,
+* rotateZ=.
+
+FIRSTPERSON:
+* Hotkey to enable First Person
+* hotkey=F6
+* Default Field Of View to use
+* defaultFOV=75.0
+* Hotkey to raise Field Of View
+* raiseFOVHotkey=PageUp
+* Hotkey to lower Field Of View
+* lowerFOVHotkey=PageDown
+
+FightClub (REMOVED, may be added back):
 Challenge: 'k'
 Accept: 'l'
 
 ---------------------------------
 CHANGELOG
 ---------------------------------
+V 0.5
+* New Mod Profile Has Been Added
+
+* Added Crop_Replant, which should allow for crop harvesting and planting at the same time
+
+* Switch Mods That Had ThunderStore Alternatives (Heightmap, SpeedyPaths, Etc)
+
+* Torches now will stay lit
+
+* Forced PVP is now enabled
+
+* Valheim Plus Changes
+-----------------------
+    VALHEIM PLUS
+-----------------------
+BUILDING MODE:
+* Building mode hotkey is F3, exit is F4
+* CopyItemRotation: Keypad7
+* CopyItemRotation:Keypad8
+* increaseScrollSpeed=KeypadPlus
+* decreaseScrollSpeed=KeypadMinus
+BUILDING:
+* Remove some of invald placement messages
+* Comfort Radius Increase from 10 to 20
+* Hammer now repairs in a 7.5 radius
+CAMERA:
+* Maximum Zoom Increased
+FIRESOURCE:
+* Torch-type fire sources will stay at max
+SERVER:
+* DATA RATE HAS BEEN REMOVED
+FREEPLACEMENTROTATION:
+* rotateY=RightAlt
+* rotateX=,
+* rotateZ=.
+FIRSTPERSON:
+* Hotkey to enable First Person
+* hotkey=F6
+* Default Field Of View to use
+* defaultFOV=75.0
+* Hotkey to raise Field Of View
+* raiseFOVHotkey=PageUp
+* Hotkey to lower Field Of View
+* lowerFOVHotkey=PageDown
+
 V 0.3
 *Forced PVP has been Added but not enabled
 *Updated all text documents into the main readme doc

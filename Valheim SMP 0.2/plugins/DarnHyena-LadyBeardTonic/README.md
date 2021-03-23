@@ -8,6 +8,8 @@ A simple mod to disable the block in character creation that prevents you from s
 
 Just drop the dll file for this mod into BepInEx\Plugins and enjoy!
 
-Sadly there's not a way to edit existing characters in-game yet, so you will have to make a new one, or find a character editor mod if any exists out there yet.
+This is mainly for new characters, as the game doesn't have an option to edit characters afterwards.
+Alternativly, there's some character editors out there that might allow you to add a beard on after the fact.
 
 -Special credit to Measurity for a lot of help with making it
+[Updated to add tags]
