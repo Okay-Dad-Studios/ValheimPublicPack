@@ -1,0 +1,9 @@
+{
+	"name": "ShipSpeed",
+	"version_number": "0.2.3",
+	"website_url": "https://www.nexusmods.com/valheim/mods/119",
+	"description": "Lets you set multipliers for a whole bunch of ship variables.",
+	"dependencies": [
+		"denikson-BepInExPack_Valheim-5.4.901"
+	]
+}

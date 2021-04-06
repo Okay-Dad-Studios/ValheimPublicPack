@@ -1,0 +1,105 @@
+# Example yaml file. Feel free to customize this. Everything that is not defined in this file will use the configuration file instead.
+
+# Define your own groups here and assign creatures to your groups. There are default groups for all biomes, which do not have to be created by you, unless you want to assign different creatures to it.
+# Special groups: all, creature, boss
+groups:
+    My Plains Group:
+        - Deathsquito
+        - Fuling Berserker
+        - Lox
+    My Bosses:
+        - The Elder
+        - Moder
+
+# Set the level up chances for each of your groups here. Start with world level 0 and define the different chances in percent from left to right, starting with 1 star.
+# This will set the level up chances for the Meadows biome und will also disable the Armored effect and the Chaos infusion until you reach world level 2 in this biome.
+Meadows:
+    stars:
+        0: [10, 2]
+        1: [15, 5, 1]
+        2: [18, 8, 2, 0.3]
+        3: [22, 10, 3, 0.5, 0.3]
+        4: [25, 12, 5, 1, 0.5]
+        5: [30, 15, 8, 3, 1]
+    effect:
+        Armored: 0
+    infusion:
+        0:
+            Chaos: 0
+        1:
+            Chaos: 0
+        2:
+            Chaos: default
+
+# Overrides the level chances in Black Forest, to make them more likely to spawn with stars than in Meadows.
+Black Forest:
+    stars:
+        0: [12, 2]
+        1: [17, 5, 1]
+        2: [20, 8, 2, 0.3]
+        3: [24, 10, 3, 0.5, 0.3]
+        4: [27, 12, 5, 1, 0.5]
+        5: [32, 15, 8, 3, 1]
+
+# You can use the 'default' key word to use the configuration from the configuration file for a specific setting. This will use the default configuration for world level 0, but set a custom level up chance for world level 1.
+Mountain:
+    stars:
+        0: default
+        1: [15, 3, 2]
+
+# This will make the Poison infusion more likely in the Swamp biome, the higher your world level and the higher the creatures level.
+Swamp:
+    infusion:
+        0:
+            Poison: [5, 10, 15, 20, 25]
+        1:
+            Poison: [10, 15, 20, 25, 30]
+        2:
+            Poison: [15, 20, 25, 30, 35]
+        3:
+            Poison: [20, 25, 30, 35, 40]
+        4:
+            Poison: [25, 30, 35, 40, 45]
+        5:
+            Poison: [30, 35, 40, 45, 50]
+
+# You can use your own groups just like you can use the default groups. This will limit the level for the strong creatures that I assigned to the 'My Plais Group' at the top.
+My Plains Group:
+    stars:
+        0: [10, 1]
+        1: [11, 2]
+        2: [15, 3]
+
+# You can also set a specific configuration for one creature or boss only. This will limit the level for the serpent and prevent it from spawning with the Armored or Quick effect.
+Serpent:
+    stars:
+        0: [30]
+        1: [30, 10]
+        2: [30, 10, 5]
+    effect:
+        Armored: 0
+        Quick: 0
+
+# This will prevent Deers from having their size increased per level and will double the loot you get from Deers with at least 2 stars, until you reach world level 1.
+Deer:
+    size: 0
+    loot:
+        0: [1, 2]
+        1: default
+
+# You can use 'movement speed' to adjust the base movement speed for creatures. This will slow down Deathsquitos a little bit.
+Deathsquito:
+    movement speed: 0.9
+
+# This will prevent Eikthyr from spawning with the mending affix, if it has more than 1 star, if the world level is still 0, but enables the Mending affix for higher level Eikthyr, if the world level is at least 1. For higher stars, the last value will always be used.
+Eikthyr:
+    affix:
+        0:
+            Mending: [10, 0]
+        1:
+            Mending: [10]
+
+# You can use the 'health per star' and 'damage per star' keywords to adjust the health and damage a creature or boss gains per star. This will decrease the health and damage gained per star for Bonemass.
+Bonemass:
+    health per star: 0.2
+    damage per star: 0.09
